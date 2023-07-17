@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortionMaster</title>
+
+    <title>PortionMaster trial1</title>
 </head>
 <style>
+    *{
+        background-color: beige;
+        
+    }
 
     html{
         box-sizing: border-box;
-        background-color: beige;
+        
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
         
@@ -28,6 +33,7 @@
         font-size: larger;
         
     }
+    
     img{
         border: 2px solid rgb(190, 86, 86);
         max-width: 850px;
@@ -49,13 +55,14 @@
     li{
         padding: 10px;
         border: 2px solid black;
-        width: 10%;
+        border-radius:15%;
         list-style: none;
         margin: 6px;
-        margin-right: 50px;
-        width:fit-content;
+        margin-right: 25px;
+        width: 100%;
         font-size: 28px;
-        background-color: rgb(255, 238, 238);
+        text-align: center;
+        background-color: rgb(252, 224, 224);
     }
     
     h4{
@@ -63,6 +70,15 @@
     }
     a{
         color: blue;
+        background-color: rgb(252, 224, 224);
+    }
+    .syllabus{
+       text-align: center;
+       padding-bottom: 15px;
+       
+    }
+    .syllabus a{
+        background-color: beige;
     }
     a:hover{
     
@@ -120,6 +136,7 @@
     }
     @media only screen and (min-width:100px) and (max-width:450px) {
         *{
+            background-color: beige;
             max-width: 98%;
             font-size: 25px;
             text-decoration:wavy ;
@@ -129,21 +146,20 @@
             font-size: 42px;
         }
         h4{
-            text-align: center;
+            margin: auto;
         }
         .box{
            max-width:fit-content;
            text-align: center;
         }
-        ul{
-            display: block;
-        }
+        
         .container {
             margin: auto;
             
         }
         h3{
             font-size: 25px;
+            
         }
         .images{
             max-width: 97%;
@@ -156,19 +172,27 @@
         li{
             border: 2px solid black;
             padding: 6px;
-            width: fit-content;
+            width:45%;
             font-family:monospace;
             display: block;
+            margin: auto;
+            list-style:circle;
+            margin-bottom: 10px;
         }
         .centre1{
             width: 100%;
             margin: 5px;
             text-align: center;
         }
+        ul{
+            display: block;
+            
+        }
         
     }
     @media only screen and (min-width:451px) and (max-width:931px){
         *{
+            background-color: beige;
             max-width: 98%;
             font-size: 30px;
         }
@@ -197,10 +221,11 @@
         li{
             border: 2px solid black;
             padding: 8px;
-            width: fit-content;
+            width: 35%;
             font-family:monospace;
             font-size: 28px;
             display:block;
+            margin: auto;
             margin-bottom: 15px;
         }
         .images{
@@ -235,17 +260,21 @@
         <h4>SUBJECTS</h4>
         
         <ul>
-            <li><a href="Chemistry.html" target="_blank">Chemistry</a></li>
-            <li><a href="Math.html" target="_blank">Math</a></li>
-            <li><a href="Physics.html" target="_blank">Physics</a></li>
-            <li><a href="History.html" target="_blank">History</a></li>
-            <li><a href="Workshop.html" target="_blank">Workshop</a></li>
+            <li><a href="Chemistry.html" >C </a></li>
+            <li><a href="Math.html" >Math</a></li>
+            <li><a href="Physics.html" >Physics</a></li>
+            <li><a href="History.html" >History</a></li>
+            <li><a href="Workshop.html" >Hardware</a></li>
+            <li><a href="Electronics.html" >Electronics</a></li>
         </ul>
+    </div>
+    <div class="syllabus">
+        <a href="sem3 syllabus.pdf" target="_blank">Syllabus Sheet for SEM 3</a>
     </div>
     <div class="images">
         <img src="Calender.png">
     </div>
-    <footer>Website Made By Veer Nagda</footer>
+    <footer>Website Developed By Veer Nagda</footer>
     </div>
 </body>
 </html>
